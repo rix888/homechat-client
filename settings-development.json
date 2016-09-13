@@ -1,0 +1,8 @@
+{
+    "public": {
+      "defaultState": {
+        "exampleText": "This text will be generated via the local data store (Redux)"
+      }
+    },
+    "private": {}
+}

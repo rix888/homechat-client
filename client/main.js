@@ -3,22 +3,27 @@ import initContext from './configs/context';
 import { combineReducers } from 'redux';
 import { createApp } from 'mantra-core';
 
-// import modules
 import coreModule from './modules/core';
-
-const coreReducers = coreModule.reducers;
+import chatModule from './modules/chat';
+import conversationsModule from './modules/conversations';
+import navigationModule from './modules/navigation';
+import profileModule from './modules/profile';
 
 const reducer = combineReducers({
-  ...coreReducers,
+  ...coreModule.reducers,
+  ...chatModule.reducers,
+  ...conversationsModule.reducers,
+  ...navigationModule.reducers,
+  ...profileModule.reducers
 });
 
-// init context
 const context = initContext({ reducer });
-
-// Start App
 const app = createApp(context);
 
-// Load modules
 app.loadModule(coreModule);
+app.loadModule(chatModule);
+app.loadModule(conversationsModule);
+app.loadModule(navigationModule);
+app.loadModule(profileModule);
 
 app.init();

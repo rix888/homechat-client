@@ -4,7 +4,6 @@ import { setHeadingTags } from '../../configs/dochead';
 import { mount } from 'react-mounter';
 
 import MainLayout from './components/MainLayout.jsx';
-import Example from './containers/Example.js';
 
 export default function(injectDeps, { AuthenticatedRoutes }) {
   const MainLayoutCtx = injectDeps(MainLayout);
@@ -13,7 +12,7 @@ export default function(injectDeps, { AuthenticatedRoutes }) {
     name: 'home',
     action() {
       mount(MainLayoutCtx, {
-        content: () => (<Example />)
+        content: () => (<MainLayoutCtx />)
       });
     }
   });

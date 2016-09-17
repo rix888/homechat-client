@@ -6,7 +6,10 @@ import React from 'react';
 class NavFooter extends React.Component {
   render() {
     return (
-      <div> This is the NavFooter component! </div>
+        <div class="nav_footer">
+          <span id="nav_footer_ques_mark">?</span>
+          <span id="nav_footer_chat">Chat With Us</span>
+        </div>
     );
   }
 }

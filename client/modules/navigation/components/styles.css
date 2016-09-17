@@ -1,1 +1,193 @@
 /*** NAVIGATION ***/
+
+    body {
+      margin: 0px;
+      -webkit-font-smoothing: antialiased;
+      text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .nav_container {
+      width: 20%;
+      min-width: 190px;
+      height: 100%;
+      position: fixed;
+      background-color: #3A4A63;
+    }
+
+    .nav_top {
+      height: 75px;
+      display: flex;
+    }
+
+    .nav_circle {
+      width: 25%;
+      height: 25px;
+      float: left;
+    }
+
+    #nav_round {
+      height: 50px;
+      padding: 12px 3px;
+
+    }
+
+    .nav_company_info {
+      width: 65%;
+      margin-top: 14px;
+      margin-left: 8px;
+    }
+
+    .nav_company {
+      font-family: 'Lato', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: white;
+    }
+
+    .nav_name {
+      font-family: 'Lato', sans-serif;
+      font-size: 12px;
+      color: #b2b2b2;
+      margin-top: 5px;
+    }
+
+    .nav_sett {
+      padding-right: 10px;
+    }
+
+    #nav_tools {
+      width: 20px;
+      height: 20px;
+      margin-top: 20px;
+    }
+
+    #nav_arrow {
+      width: 20px;
+      height: 20px;
+      margin-top: -12px;
+    }
+
+    hr {
+      margin-left: 10px;
+      margin-right: 10px;
+      height: 1px;
+      color: #333;
+      background-color: #333;
+      border: none;
+    }
+
+    .nav_main_options {
+      margin-top: 8px;
+    }
+
+    .nav_logo {
+      width: 15%;
+    }
+
+    #nav_bot_head {
+      width: 25px;
+      height: 25px;
+      margin-bottom: -4px;
+    }
+
+    #nav_signal {
+      width: 25px;
+      height: 25px;
+      margin-bottom: -4px;
+    }
+
+    #nav_chat_box {
+      width: 20px;
+      height: 20px;
+      margin-bottom: -4px;
+      margin-left: 2px;
+      margin-right: 2px;
+    }
+
+    #nav_hooks {
+      width: 25px;
+      height: 25px;
+      margin-bottom: -4px;
+      margin-right: -2px;
+    }
+
+    .nav_text {
+      font-family: 'Lato', sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+      color: white;
+    }
+
+    .nav_leads_options {
+      margin-top: 8px;
+      padding-left: 20px;
+    }
+
+    .nav_leads_logo {
+      padding-right: 10px;
+    }
+
+    #nav_www {
+      width: 25px;
+      height: 25px;
+      margin-bottom: -4px;
+    }
+
+    #nav_facebook {
+      width: 25px;
+      height: 25px;
+      margin-bottom: -4px;
+    }
+
+    #nav_text {
+      width: 25px;
+      height: 25px;
+      margin-bottom: -4px;
+    }
+
+    #nav_third_party {
+      width: 25px;
+      height: 25px;
+      margin-bottom: -4px;
+    }
+
+    .nav_leads_text {
+      font-family: 'Lato', sans-serif;
+      font-size: 16px;
+      color: #b2b2b2;
+    }
+
+    .nav_conversations_options {
+      font-family: 'Lato', sans-serif;
+      font-size: 16px;
+      color: #b2b2b2;
+      margin-top: 12px;
+      padding-left: 60px;
+    }
+
+    .nav_footer {
+      position: fixed;
+      bottom: 0;
+      width: 20%;
+      min-width: 190px;
+      height: 25px;
+      font-family: 'Lato', sans-serif;
+      font-weight: bold;
+      text-align: center;
+      background-color: #BDE5F8;
+      color: #3A4A63;
+      padding-bottom: 10px;
+    }
+
+    #nav_footer_ques_mark {
+      padding-right: 20px;
+      font-size: 30px;
+    }
+
+    #nav_footer_chat {
+      margin-bottom: 10px;
+      font-size: 14px;
+      vertical-align: super;
+    }
+
